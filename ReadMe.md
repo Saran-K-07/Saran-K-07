@@ -1,5 +1,5 @@
 # 💫 About Me:
-🌱 I’m currently doing my B.E Degree in Computer Science and Engineering with Cyber Security<br>💬 Ask me about any coding doubts<br>⚡ Fun fact:<br>    🖥️ Started Coding at 9th STD
+🌱 I’m currently doing B.E Computer Science and Engineering with specialization in Cybersecurity<br>💬 Ask me about any coding doubts<br>⚡ Fun fact:<br>    🖥️ Started Coding at 9th STD
 
 
 ## 🌐 Socials:
@@ -14,9 +14,6 @@
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=saran-k-07&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=saran-k-07&limit=5&theme=dark&combine_all_yearly_contributions=true)
