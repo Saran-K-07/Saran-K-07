@@ -1,6 +1,5 @@
 # 💫 About Me:
-🌱 I’m currently doing B.E Computer Science and Engineering with specialization in Cybersecurity<br>💬 Ask me about any coding doubts<br>⚡ Fun fact:<br>    🖥️ Started Coding at 9th STD
-
+🌱 I’m currently doing B.E Computer Science and Engineering with specialization in Cybersecurity<br>💬 Ask me about any coding doubts<br>⚡ Fun fact:<br>    🖥️ Started Coding at 9th STD<br> 👤Currently Cyber Ambassador for ISEA
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.com/invite/Tf2HtqETRf) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=61560930050661&mibextid=ZbWKwL) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/codingsaran7) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/unboxingrival) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/saran.k.07) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@saran-drngpit) 
