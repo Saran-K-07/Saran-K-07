@@ -1,7 +1,7 @@
 # Profile Config
 github_username: "Saran-K-07"
-username: "Saran-K-07"
-hostname: "github"
+username: "contact"
+hostname: "sarankanakavel.me"
 
 # Personal Info
 name: "Saran Kanakavel"
@@ -9,8 +9,8 @@ birthdate: "2006-07-23"   # YYYY-MM-DD — used to compute Uptime
 location: "Earth"
 
 # Neofetch Fields
-os: "Kali"
-host: "UTM"
+os: "Saran Kanakavel"
+host: "Earth"
 languages: "C/C++, Python, Java"
 frameworks: "SpringBoot, Flask, Linux"
 ide: "VsCode, VsCodium, IntelliJ Idea"
@@ -20,7 +20,7 @@ shell: "zsh"
 aircraft_dir: "aircraft"
 
 # Animation timing (seconds per aircraft in the SVG animation)
-aircraft_display_seconds: 1.0
+aircraft_display_seconds: 2.0
 transition_seconds: 0.5
 
 # Dashboard dimensions
