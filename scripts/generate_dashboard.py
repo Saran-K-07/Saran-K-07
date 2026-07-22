@@ -515,7 +515,7 @@ def generate_svg(config, stats, loc_stats, aircraft_list, theme="dark"):
 
     spacer()
     field("Shell", config.get("shell", "bash"))
-    field("Aircraft", ", ".join(c["name"] for c in aircraft_list))
+    field("OS", ", ".join(c["name"] for c in aircraft_list))
 
     # ── Assemble final SVG ──
     svg = f"""<svg width="{SVG_W}" height="{SVG_H}" viewBox="0 0 {SVG_W} {SVG_H}"
