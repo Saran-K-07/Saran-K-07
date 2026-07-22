@@ -1,0 +1,1638 @@
+<svg width="835" height="460" viewBox="0 0 835 460"
+     xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 8; ry: 8; }
+    text { font-family: 'JetBrains Mono','Cascadia Code','Fira Code','SF Mono','Consolas','Courier New',monospace;
+           font-size: 14px; fill: #c9d1d9; white-space: pre; }
+    .art { fill: #3fb950; }
+    .glitch { fill: #d29922; }
+    .label { fill: #79c0ff; font-weight: bold; }
+    .title { fill: #58a6ff; font-weight: bold; }
+    .val { font-weight: bold; }
+    .dim { fill: #8b949e; }
+
+    @keyframes show0 {
+      0% { opacity: 0; }
+      0.00% { opacity: 0; }
+      0.00% { opacity: 1; }
+      10.94% { opacity: 1; }
+      11.94% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .show0 { animation: show0 32.0s ease infinite; }
+    @keyframes show1 {
+      0% { opacity: 0; }
+      12.00% { opacity: 0; }
+      12.50% { opacity: 1; }
+      23.44% { opacity: 1; }
+      24.44% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .show1 { animation: show1 32.0s ease infinite; }
+    @keyframes show2 {
+      0% { opacity: 0; }
+      24.50% { opacity: 0; }
+      25.00% { opacity: 1; }
+      35.94% { opacity: 1; }
+      36.94% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .show2 { animation: show2 32.0s ease infinite; }
+    @keyframes show3 {
+      0% { opacity: 0; }
+      37.00% { opacity: 0; }
+      37.50% { opacity: 1; }
+      48.44% { opacity: 1; }
+      49.44% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .show3 { animation: show3 32.0s ease infinite; }
+    @keyframes show4 {
+      0% { opacity: 0; }
+      49.50% { opacity: 0; }
+      50.00% { opacity: 1; }
+      60.94% { opacity: 1; }
+      61.94% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .show4 { animation: show4 32.0s ease infinite; }
+    @keyframes show5 {
+      0% { opacity: 0; }
+      62.00% { opacity: 0; }
+      62.50% { opacity: 1; }
+      73.44% { opacity: 1; }
+      74.44% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .show5 { animation: show5 32.0s ease infinite; }
+    @keyframes show6 {
+      0% { opacity: 0; }
+      74.50% { opacity: 0; }
+      75.00% { opacity: 1; }
+      85.94% { opacity: 1; }
+      86.94% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .show6 { animation: show6 32.0s ease infinite; }
+    @keyframes show7 {
+      0% { opacity: 0; }
+      87.00% { opacity: 0; }
+      87.50% { opacity: 1; }
+      98.44% { opacity: 1; }
+      99.44% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .show7 { animation: show7 32.0s ease infinite; }
+    @keyframes morph0f0 {
+      0% { opacity: 0; }
+      10.64% { opacity: 0; }
+      10.94% { opacity: 1; }
+      11.25% { opacity: 1; }
+      11.55% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph0f0 { animation: morph0f0 32.0s step-start infinite; }
+    @keyframes morph0f1 {
+      0% { opacity: 0; }
+      10.95% { opacity: 0; }
+      11.25% { opacity: 1; }
+      11.56% { opacity: 1; }
+      11.86% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph0f1 { animation: morph0f1 32.0s step-start infinite; }
+    @keyframes morph0f2 {
+      0% { opacity: 0; }
+      11.26% { opacity: 0; }
+      11.56% { opacity: 1; }
+      11.88% { opacity: 1; }
+      12.18% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph0f2 { animation: morph0f2 32.0s step-start infinite; }
+    @keyframes morph0f3 {
+      0% { opacity: 0; }
+      11.57% { opacity: 0; }
+      11.88% { opacity: 1; }
+      12.19% { opacity: 1; }
+      12.49% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph0f3 { animation: morph0f3 32.0s step-start infinite; }
+    @keyframes morph0f4 {
+      0% { opacity: 0; }
+      11.89% { opacity: 0; }
+      12.19% { opacity: 1; }
+      12.50% { opacity: 1; }
+      12.80% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph0f4 { animation: morph0f4 32.0s step-start infinite; }
+    @keyframes morph1f0 {
+      0% { opacity: 0; }
+      23.14% { opacity: 0; }
+      23.44% { opacity: 1; }
+      23.75% { opacity: 1; }
+      24.05% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph1f0 { animation: morph1f0 32.0s step-start infinite; }
+    @keyframes morph1f1 {
+      0% { opacity: 0; }
+      23.45% { opacity: 0; }
+      23.75% { opacity: 1; }
+      24.06% { opacity: 1; }
+      24.36% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph1f1 { animation: morph1f1 32.0s step-start infinite; }
+    @keyframes morph1f2 {
+      0% { opacity: 0; }
+      23.76% { opacity: 0; }
+      24.06% { opacity: 1; }
+      24.38% { opacity: 1; }
+      24.68% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph1f2 { animation: morph1f2 32.0s step-start infinite; }
+    @keyframes morph1f3 {
+      0% { opacity: 0; }
+      24.07% { opacity: 0; }
+      24.38% { opacity: 1; }
+      24.69% { opacity: 1; }
+      24.99% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph1f3 { animation: morph1f3 32.0s step-start infinite; }
+    @keyframes morph1f4 {
+      0% { opacity: 0; }
+      24.39% { opacity: 0; }
+      24.69% { opacity: 1; }
+      25.00% { opacity: 1; }
+      25.30% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph1f4 { animation: morph1f4 32.0s step-start infinite; }
+    @keyframes morph2f0 {
+      0% { opacity: 0; }
+      35.64% { opacity: 0; }
+      35.94% { opacity: 1; }
+      36.25% { opacity: 1; }
+      36.55% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph2f0 { animation: morph2f0 32.0s step-start infinite; }
+    @keyframes morph2f1 {
+      0% { opacity: 0; }
+      35.95% { opacity: 0; }
+      36.25% { opacity: 1; }
+      36.56% { opacity: 1; }
+      36.86% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph2f1 { animation: morph2f1 32.0s step-start infinite; }
+    @keyframes morph2f2 {
+      0% { opacity: 0; }
+      36.26% { opacity: 0; }
+      36.56% { opacity: 1; }
+      36.88% { opacity: 1; }
+      37.17% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph2f2 { animation: morph2f2 32.0s step-start infinite; }
+    @keyframes morph2f3 {
+      0% { opacity: 0; }
+      36.58% { opacity: 0; }
+      36.88% { opacity: 1; }
+      37.19% { opacity: 1; }
+      37.49% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph2f3 { animation: morph2f3 32.0s step-start infinite; }
+    @keyframes morph2f4 {
+      0% { opacity: 0; }
+      36.89% { opacity: 0; }
+      37.19% { opacity: 1; }
+      37.50% { opacity: 1; }
+      37.80% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph2f4 { animation: morph2f4 32.0s step-start infinite; }
+    @keyframes morph3f0 {
+      0% { opacity: 0; }
+      48.14% { opacity: 0; }
+      48.44% { opacity: 1; }
+      48.75% { opacity: 1; }
+      49.05% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph3f0 { animation: morph3f0 32.0s step-start infinite; }
+    @keyframes morph3f1 {
+      0% { opacity: 0; }
+      48.45% { opacity: 0; }
+      48.75% { opacity: 1; }
+      49.06% { opacity: 1; }
+      49.36% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph3f1 { animation: morph3f1 32.0s step-start infinite; }
+    @keyframes morph3f2 {
+      0% { opacity: 0; }
+      48.76% { opacity: 0; }
+      49.06% { opacity: 1; }
+      49.38% { opacity: 1; }
+      49.67% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph3f2 { animation: morph3f2 32.0s step-start infinite; }
+    @keyframes morph3f3 {
+      0% { opacity: 0; }
+      49.08% { opacity: 0; }
+      49.38% { opacity: 1; }
+      49.69% { opacity: 1; }
+      49.99% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph3f3 { animation: morph3f3 32.0s step-start infinite; }
+    @keyframes morph3f4 {
+      0% { opacity: 0; }
+      49.39% { opacity: 0; }
+      49.69% { opacity: 1; }
+      50.00% { opacity: 1; }
+      50.30% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph3f4 { animation: morph3f4 32.0s step-start infinite; }
+    @keyframes morph4f0 {
+      0% { opacity: 0; }
+      60.64% { opacity: 0; }
+      60.94% { opacity: 1; }
+      61.25% { opacity: 1; }
+      61.55% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph4f0 { animation: morph4f0 32.0s step-start infinite; }
+    @keyframes morph4f1 {
+      0% { opacity: 0; }
+      60.95% { opacity: 0; }
+      61.25% { opacity: 1; }
+      61.56% { opacity: 1; }
+      61.86% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph4f1 { animation: morph4f1 32.0s step-start infinite; }
+    @keyframes morph4f2 {
+      0% { opacity: 0; }
+      61.26% { opacity: 0; }
+      61.56% { opacity: 1; }
+      61.88% { opacity: 1; }
+      62.17% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph4f2 { animation: morph4f2 32.0s step-start infinite; }
+    @keyframes morph4f3 {
+      0% { opacity: 0; }
+      61.58% { opacity: 0; }
+      61.88% { opacity: 1; }
+      62.19% { opacity: 1; }
+      62.49% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph4f3 { animation: morph4f3 32.0s step-start infinite; }
+    @keyframes morph4f4 {
+      0% { opacity: 0; }
+      61.89% { opacity: 0; }
+      62.19% { opacity: 1; }
+      62.50% { opacity: 1; }
+      62.80% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph4f4 { animation: morph4f4 32.0s step-start infinite; }
+    @keyframes morph5f0 {
+      0% { opacity: 0; }
+      73.14% { opacity: 0; }
+      73.44% { opacity: 1; }
+      73.75% { opacity: 1; }
+      74.05% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph5f0 { animation: morph5f0 32.0s step-start infinite; }
+    @keyframes morph5f1 {
+      0% { opacity: 0; }
+      73.45% { opacity: 0; }
+      73.75% { opacity: 1; }
+      74.06% { opacity: 1; }
+      74.36% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph5f1 { animation: morph5f1 32.0s step-start infinite; }
+    @keyframes morph5f2 {
+      0% { opacity: 0; }
+      73.76% { opacity: 0; }
+      74.06% { opacity: 1; }
+      74.38% { opacity: 1; }
+      74.67% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph5f2 { animation: morph5f2 32.0s step-start infinite; }
+    @keyframes morph5f3 {
+      0% { opacity: 0; }
+      74.08% { opacity: 0; }
+      74.38% { opacity: 1; }
+      74.69% { opacity: 1; }
+      74.99% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph5f3 { animation: morph5f3 32.0s step-start infinite; }
+    @keyframes morph5f4 {
+      0% { opacity: 0; }
+      74.39% { opacity: 0; }
+      74.69% { opacity: 1; }
+      75.00% { opacity: 1; }
+      75.30% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph5f4 { animation: morph5f4 32.0s step-start infinite; }
+    @keyframes morph6f0 {
+      0% { opacity: 0; }
+      85.64% { opacity: 0; }
+      85.94% { opacity: 1; }
+      86.25% { opacity: 1; }
+      86.55% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph6f0 { animation: morph6f0 32.0s step-start infinite; }
+    @keyframes morph6f1 {
+      0% { opacity: 0; }
+      85.95% { opacity: 0; }
+      86.25% { opacity: 1; }
+      86.56% { opacity: 1; }
+      86.86% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph6f1 { animation: morph6f1 32.0s step-start infinite; }
+    @keyframes morph6f2 {
+      0% { opacity: 0; }
+      86.26% { opacity: 0; }
+      86.56% { opacity: 1; }
+      86.88% { opacity: 1; }
+      87.17% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph6f2 { animation: morph6f2 32.0s step-start infinite; }
+    @keyframes morph6f3 {
+      0% { opacity: 0; }
+      86.58% { opacity: 0; }
+      86.88% { opacity: 1; }
+      87.19% { opacity: 1; }
+      87.49% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph6f3 { animation: morph6f3 32.0s step-start infinite; }
+    @keyframes morph6f4 {
+      0% { opacity: 0; }
+      86.89% { opacity: 0; }
+      87.19% { opacity: 1; }
+      87.50% { opacity: 1; }
+      87.80% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph6f4 { animation: morph6f4 32.0s step-start infinite; }
+    @keyframes morph7f0 {
+      0% { opacity: 0; }
+      98.14% { opacity: 0; }
+      98.44% { opacity: 1; }
+      98.75% { opacity: 1; }
+      99.05% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph7f0 { animation: morph7f0 32.0s step-start infinite; }
+    @keyframes morph7f1 {
+      0% { opacity: 0; }
+      98.45% { opacity: 0; }
+      98.75% { opacity: 1; }
+      99.06% { opacity: 1; }
+      99.36% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph7f1 { animation: morph7f1 32.0s step-start infinite; }
+    @keyframes morph7f2 {
+      0% { opacity: 0; }
+      98.76% { opacity: 0; }
+      99.06% { opacity: 1; }
+      99.38% { opacity: 1; }
+      99.67% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph7f2 { animation: morph7f2 32.0s step-start infinite; }
+    @keyframes morph7f3 {
+      0% { opacity: 0; }
+      99.08% { opacity: 0; }
+      99.38% { opacity: 1; }
+      99.69% { opacity: 1; }
+      99.99% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph7f3 { animation: morph7f3 32.0s step-start infinite; }
+    @keyframes morph7f4 {
+      0% { opacity: 0; }
+      99.39% { opacity: 0; }
+      99.69% { opacity: 1; }
+      100.00% { opacity: 1; }
+      100.00% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .morph7f4 { animation: morph7f4 32.0s step-start infinite; }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor { animation: blink 1s step-end infinite; }
+  </style>
+
+  <rect class="bg" x="0.5" y="0.5" width="834" height="459" />
+
+  <!-- Aircraft Art -->
+  <g id="art-panel">
+    <g class="show0">
+      <text x="18" y="28" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="47" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="66" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="85" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="104" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="123" class="art" xml:space="preserve">                  .                 </text>
+      <text x="18" y="142" class="art" xml:space="preserve">               ..c;:.               </text>
+      <text x="18" y="161" class="art" xml:space="preserve">              .ll:,;ll.             </text>
+      <text x="18" y="180" class="art" xml:space="preserve">            .;oll;c,llo:            </text>
+      <text x="18" y="199" class="art" xml:space="preserve">          ..llccclc:cccll.          </text>
+      <text x="18" y="218" class="art" xml:space="preserve">         &apos;llcolcclc:cc:ocll&apos;        </text>
+      <text x="18" y="237" class="art" xml:space="preserve">       &apos;:lclcolcclc:cc:oclclc.      </text>
+      <text x="18" y="256" class="art" xml:space="preserve">     .,lclcccocllll:ol:occclcl,.    </text>
+      <text x="18" y="275" class="art" xml:space="preserve">   .;lllocllccocclc:lccccllcollo;   </text>
+      <text x="18" y="294" class="art" xml:space="preserve">  .ccdlc  &apos;clcocclc:lclclc; ,cldcl. </text>
+      <text x="18" y="313" class="art" xml:space="preserve">.,lllcl     cll..l::&apos;.llc     :clll;</text>
+      <text x="18" y="332" class="art" xml:space="preserve">  co,            .,             .oc </text>
+      <text x="18" y="351" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="370" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="389" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="408" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="427" class="art" xml:space="preserve">                                    </text>
+    </g>
+    <g class="show1">
+      <text x="18" y="28" class="art" xml:space="preserve">                 ,;                 </text>
+      <text x="18" y="47" class="art" xml:space="preserve">                .;:&apos;                </text>
+      <text x="18" y="66" class="art" xml:space="preserve">               .&apos;;;;.               </text>
+      <text x="18" y="85" class="art" xml:space="preserve">               ,.,;,;.              </text>
+      <text x="18" y="104" class="art" xml:space="preserve">              ;&apos;.&apos;,,,:              </text>
+      <text x="18" y="123" class="art" xml:space="preserve">             &apos;,;.;:,:;;             </text>
+      <text x="18" y="142" class="art" xml:space="preserve">            &apos;&apos;::,:c;:c;,            </text>
+      <text x="18" y="161" class="art" xml:space="preserve">           ;&apos;&apos;:;::cc:c;,:           </text>
+      <text x="18" y="180" class="art" xml:space="preserve">          ,:.,::::cc:c;,:;          </text>
+      <text x="18" y="199" class="art" xml:space="preserve">         &apos;::&apos;&apos;::::cccc;,cc,         </text>
+      <text x="18" y="218" class="art" xml:space="preserve">        .:::,&apos;::::cccc;;ccc.        </text>
+      <text x="18" y="237" class="art" xml:space="preserve">        ::c:;&apos;::::cccc;;cccc.       </text>
+      <text x="18" y="256" class="art" xml:space="preserve">       ::c::;,::::cc::;:ccccc       </text>
+      <text x="18" y="275" class="art" xml:space="preserve">      ;:c:c:;;;;:::::::::::cc:      </text>
+      <text x="18" y="294" class="art" xml:space="preserve">     ,:c:cc;&apos;;;;;;:::::,,cc:cc:     </text>
+      <text x="18" y="313" class="art" xml:space="preserve">    ,:ccc;   .:;;;;:::&apos;   ,c::c;    </text>
+      <text x="18" y="332" class="art" xml:space="preserve">   &apos;:c:c       &apos;;;&apos;,,       :c:c;   </text>
+      <text x="18" y="351" class="art" xml:space="preserve">   ::c         .;,&apos;&apos;.         ccc   </text>
+      <text x="18" y="370" class="art" xml:space="preserve">               ,,...&apos;               </text>
+      <text x="18" y="389" class="art" xml:space="preserve">               ,&apos;  ...              </text>
+      <text x="18" y="408" class="art" xml:space="preserve">               .     .              </text>
+      <text x="18" y="427" class="art" xml:space="preserve">                                    </text>
+    </g>
+    <g class="show2">
+      <text x="18" y="28" class="art" xml:space="preserve">                  c                 </text>
+      <text x="18" y="47" class="art" xml:space="preserve">                 &apos;O.                </text>
+      <text x="18" y="66" class="art" xml:space="preserve">                 kO:                </text>
+      <text x="18" y="85" class="art" xml:space="preserve">                 kkk                </text>
+      <text x="18" y="104" class="art" xml:space="preserve">                .:.o                </text>
+      <text x="18" y="123" class="art" xml:space="preserve">                &apos;,.c                </text>
+      <text x="18" y="142" class="art" xml:space="preserve">                .,&apos;c                </text>
+      <text x="18" y="161" class="art" xml:space="preserve">              .&apos;l,.cc:              </text>
+      <text x="18" y="180" class="art" xml:space="preserve">              k:k:.okkd             </text>
+      <text x="18" y="199" class="art" xml:space="preserve">             dkokkkkkkkl            </text>
+      <text x="18" y="218" class="art" xml:space="preserve">            oOOOxkOkkOOk:           </text>
+      <text x="18" y="237" class="art" xml:space="preserve">           lkOkOk000OOkOk&apos;          </text>
+      <text x="18" y="256" class="art" xml:space="preserve">          cOkkOkkkkkkkOkkk,         </text>
+      <text x="18" y="275" class="art" xml:space="preserve">         &apos;kkOOOOkkOkkOOOOkk         </text>
+      <text x="18" y="294" class="art" xml:space="preserve">        .kOkkkOOOkOkkOOkkOOx        </text>
+      <text x="18" y="313" class="art" xml:space="preserve">        kOOO0OOkkkOkkkOO0OO0x       </text>
+      <text x="18" y="332" class="art" xml:space="preserve">       ddkO00kOOOkOkOOOk00OOOo      </text>
+      <text x="18" y="351" class="art" xml:space="preserve">      dkdO0KKOkkkkOkkkkOKK0OOOc     </text>
+      <text x="18" y="370" class="art" xml:space="preserve">     lOOOKKKKOkkkkkkkkOOKKK0OOk,    </text>
+      <text x="18" y="389" class="art" xml:space="preserve">    .kO0KKKKKkxkkkOkkkkOKKKKK0Ok    </text>
+      <text x="18" y="408" class="art" xml:space="preserve">     oOKKKKKKlxl:OkO,doxKKKKK0O,    </text>
+      <text x="18" y="427" class="art" xml:space="preserve">      .KKKo               OKK0      </text>
+    </g>
+    <g class="show3">
+      <text x="18" y="28" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="47" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="66" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="85" class="art" xml:space="preserve">                 .                  </text>
+      <text x="18" y="104" class="art" xml:space="preserve">                 c;                 </text>
+      <text x="18" y="123" class="art" xml:space="preserve">                ,,;                 </text>
+      <text x="18" y="142" class="art" xml:space="preserve">                :.,.                </text>
+      <text x="18" y="161" class="art" xml:space="preserve">                l,;;                </text>
+      <text x="18" y="180" class="art" xml:space="preserve">              .ccc:cc               </text>
+      <text x="18" y="199" class="art" xml:space="preserve">              ;ccl:cc.              </text>
+      <text x="18" y="218" class="art" xml:space="preserve">              lccdccc:              </text>
+      <text x="18" y="237" class="art" xml:space="preserve">           .;llcclcccll,            </text>
+      <text x="18" y="256" class="art" xml:space="preserve">         .cllccccccc::cll;          </text>
+      <text x="18" y="275" class="art" xml:space="preserve">       ,ll:::ccccccc::c::clc.       </text>
+      <text x="18" y="294" class="art" xml:space="preserve">      ll::;::c:ccclc::c::::co.      </text>
+      <text x="18" y="313" class="art" xml:space="preserve">        .::::,&apos;:colc,,,::;;         </text>
+      <text x="18" y="332" class="art" xml:space="preserve">            ..&apos;:cccc;.,             </text>
+      <text x="18" y="351" class="art" xml:space="preserve">           ,c::&apos; .  ;:::&apos;           </text>
+      <text x="18" y="370" class="art" xml:space="preserve">          c::,        c:c.          </text>
+      <text x="18" y="389" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="408" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="427" class="art" xml:space="preserve">                                    </text>
+    </g>
+    <g class="show4">
+      <text x="18" y="28" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="47" class="art" xml:space="preserve">                 :                  </text>
+      <text x="18" y="66" class="art" xml:space="preserve">                c:                  </text>
+      <text x="18" y="85" class="art" xml:space="preserve">                dd.                 </text>
+      <text x="18" y="104" class="art" xml:space="preserve">                l:;                 </text>
+      <text x="18" y="123" class="art" xml:space="preserve">               ,l:;                 </text>
+      <text x="18" y="142" class="art" xml:space="preserve">               dc;;;                </text>
+      <text x="18" y="161" class="art" xml:space="preserve">              lo:;;l                </text>
+      <text x="18" y="180" class="art" xml:space="preserve">             .l:o:;:l               </text>
+      <text x="18" y="199" class="art" xml:space="preserve">             docc;:ld.              </text>
+      <text x="18" y="218" class="art" xml:space="preserve">           ,dooccc:ldl:.            </text>
+      <text x="18" y="237" class="art" xml:space="preserve">         :dxoccccc:cccddl.          </text>
+      <text x="18" y="256" class="art" xml:space="preserve">      .cddlc::ccc::c::clloc&apos;        </text>
+      <text x="18" y="275" class="art" xml:space="preserve">    .cxdcccc::c:::cc::ccccodo&apos;      </text>
+      <text x="18" y="294" class="art" xml:space="preserve">   oxxdc::::::c:::cc;::::::oddl.    </text>
+      <text x="18" y="313" class="art" xml:space="preserve">   .        .;::c:cc;:              </text>
+      <text x="18" y="332" class="art" xml:space="preserve">           &apos;::;;::::;;;             </text>
+      <text x="18" y="351" class="art" xml:space="preserve">         &apos;:c:.  .:   ;;;,.          </text>
+      <text x="18" y="370" class="art" xml:space="preserve">        odcc:        ,;;:d.         </text>
+      <text x="18" y="389" class="art" xml:space="preserve">         ;               ,          </text>
+      <text x="18" y="408" class="art" xml:space="preserve">                                    </text>
+      <text x="18" y="427" class="art" xml:space="preserve">                                    </text>
+    </g>
+    <g class="show5">
+      <text x="18" y="28" class="art" xml:space="preserve">                 ,                  </text>
+      <text x="18" y="47" class="art" xml:space="preserve">                .:                  </text>
+      <text x="18" y="66" class="art" xml:space="preserve">                ;:.                 </text>
+      <text x="18" y="85" class="art" xml:space="preserve">                ,:;                 </text>
+      <text x="18" y="104" class="art" xml:space="preserve">                ;c:                 </text>
+      <text x="18" y="123" class="art" xml:space="preserve">               &apos;;c;                 </text>
+      <text x="18" y="142" class="art" xml:space="preserve">              .:;:;:                </text>
+      <text x="18" y="161" class="art" xml:space="preserve">             .::;::::               </text>
+      <text x="18" y="180" class="art" xml:space="preserve">            .:::;::::;              </text>
+      <text x="18" y="199" class="art" xml:space="preserve">           ;:;::;::::::&apos;            </text>
+      <text x="18" y="218" class="art" xml:space="preserve">           ;:;:::::::::.            </text>
+      <text x="18" y="237" class="art" xml:space="preserve"> ,..         ;:::::::;        ..&apos;,  </text>
+      <text x="18" y="256" class="art" xml:space="preserve"> ,:::c,&apos;.   ;;::::::::,  ..&apos;;c:::.  </text>
+      <text x="18" y="275" class="art" xml:space="preserve">   .clc:::c::::::::::::c::::ll:     </text>
+      <text x="18" y="294" class="art" xml:space="preserve">      ::::::::::::::::::::::&apos;       </text>
+      <text x="18" y="313" class="art" xml:space="preserve">        .:::::::::::::::::          </text>
+      <text x="18" y="332" class="art" xml:space="preserve">           &apos;::::::::::;.            </text>
+      <text x="18" y="351" class="art" xml:space="preserve">           ;;:::::::::&apos;,            </text>
+      <text x="18" y="370" class="art" xml:space="preserve">          &apos;,;::::;::::&apos;,.           </text>
+      <text x="18" y="389" class="art" xml:space="preserve">          ;,:;::;.;:::;,:           </text>
+      <text x="18" y="408" class="art" xml:space="preserve">          .,:       .,;&apos;.           </text>
+      <text x="18" y="427" class="art" xml:space="preserve">                                    </text>
+    </g>
+    <g class="show6">
+      <text x="18" y="28" class="art" xml:space="preserve">                 o&apos;                 </text>
+      <text x="18" y="47" class="art" xml:space="preserve">                .0k                 </text>
+      <text x="18" y="66" class="art" xml:space="preserve">                :oo.                </text>
+      <text x="18" y="85" class="art" xml:space="preserve">                lc;,                </text>
+      <text x="18" y="104" class="art" xml:space="preserve">                l:;;                </text>
+      <text x="18" y="123" class="art" xml:space="preserve">                o:;:                </text>
+      <text x="18" y="142" class="art" xml:space="preserve">               cdc::;               </text>
+      <text x="18" y="161" class="art" xml:space="preserve">             cOkocc:xd,             </text>
+      <text x="18" y="180" class="art" xml:space="preserve">            xOOxocc:dOko            </text>
+      <text x="18" y="199" class="art" xml:space="preserve">           ,OOdolcc:cxOO.           </text>
+      <text x="18" y="218" class="art" xml:space="preserve">          .OOdloccccccxOx.          </text>
+      <text x="18" y="237" class="art" xml:space="preserve">        .dkOdclocccc:ccxOx:         </text>
+      <text x="18" y="256" class="art" xml:space="preserve">       cOOkoccolcccc:cccdkkx;       </text>
+      <text x="18" y="275" class="art" xml:space="preserve">     ckOkoccccoc:cclc:ccccokkd,     </text>
+      <text x="18" y="294" class="art" xml:space="preserve">   ,kOkocccc:cc;;cc:;;c:ccccdOko&apos;   </text>
+      <text x="18" y="313" class="art" xml:space="preserve">  :OOxcccccc;::;;cc:;,:;cccccckOO.  </text>
+      <text x="18" y="332" class="art" xml:space="preserve">      ;dddl;;::;;cc:;,;c:lddo&apos;      </text>
+      <text x="18" y="351" class="art" xml:space="preserve">        ,ko;;::;:cc;;,:llcd.        </text>
+      <text x="18" y="370" class="art" xml:space="preserve">       cOOOdc.c:.cc.l:.ldddO,       </text>
+      <text x="18" y="389" class="art" xml:space="preserve">           o.    c:    &apos;:           </text>
+      <text x="18" y="408" class="art" xml:space="preserve">                 .                  </text>
+      <text x="18" y="427" class="art" xml:space="preserve">                                    </text>
+    </g>
+    <g class="show7">
+      <text x="18" y="28" class="art" xml:space="preserve">                 ..                 </text>
+      <text x="18" y="47" class="art" xml:space="preserve">                 ;:                 </text>
+      <text x="18" y="66" class="art" xml:space="preserve">                 ;:.                </text>
+      <text x="18" y="85" class="art" xml:space="preserve">                .,;&apos;                </text>
+      <text x="18" y="104" class="art" xml:space="preserve">                .,;;                </text>
+      <text x="18" y="123" class="art" xml:space="preserve">                ;:::                </text>
+      <text x="18" y="142" class="art" xml:space="preserve">                ;:::                </text>
+      <text x="18" y="161" class="art" xml:space="preserve">                ;:::                </text>
+      <text x="18" y="180" class="art" xml:space="preserve">               ,::::;.              </text>
+      <text x="18" y="199" class="art" xml:space="preserve">             ,::;:::cc;             </text>
+      <text x="18" y="218" class="art" xml:space="preserve">           .::::;::;c::c.           </text>
+      <text x="18" y="237" class="art" xml:space="preserve">          .:c:::;::::::c;&apos;          </text>
+      <text x="18" y="256" class="art" xml:space="preserve">         &apos;:c::::;;::::::c:,         </text>
+      <text x="18" y="275" class="art" xml:space="preserve">        &apos;c::::::;;::::::::c,        </text>
+      <text x="18" y="294" class="art" xml:space="preserve">       .::::::::;;:::::::::c&apos;       </text>
+      <text x="18" y="313" class="art" xml:space="preserve">      ;c::::::::;;::::::::::c;      </text>
+      <text x="18" y="332" class="art" xml:space="preserve">     ,c:::::::::;::::::::::::c;     </text>
+      <text x="18" y="351" class="art" xml:space="preserve">    .:::::::::::;::::ccccc:cc:c,    </text>
+      <text x="18" y="370" class="art" xml:space="preserve">               ;;::::               </text>
+      <text x="18" y="389" class="art" xml:space="preserve">               ,;:::;               </text>
+      <text x="18" y="408" class="art" xml:space="preserve">                 ::.                </text>
+      <text x="18" y="427" class="art" xml:space="preserve">                 &apos;&apos;                 </text>
+    </g>
+    <g class="morph0f0">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 ,!                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                .?:&apos;                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">               .&apos;$;;%               </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">               ░.,$*!%              </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">              @&apos;.&apos;|,?/              </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">             &amp;,|░#.,:;;             </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">            |&apos;*.%c;@.c;░            </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">           ?|&apos;.|#:|;/l.░:           </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">          ,:.;%&amp;l/c,llo::|          </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">         &amp;./l░cccl#:c░$l%.,         </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">        $#llco░?clc:||:o░l|&amp;        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">       &amp;:░%lc*lccl░░cc:ocl░lc&amp;      </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">     .,lc#cc?$cll░!#&amp;*&amp;o%!clcl,.    </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   .;ll%ocl#ccocc@c:lcc#c|$co░%!░   </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">  .#c$/c:!&apos;c/coc?&amp;%/lclcl!;:,cldc░$ </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">.%l!!#lc/;  cll.%l::&apos;.##* ,/:@!c*l&amp;;</text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">  @o,%:c       &apos;|@@,░       #?!!.*# </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">   ::c         !;,$@.         ccc   </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">               @,.$@?               </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">               ,&apos;  ...              </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">               .     .              </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph0f1">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 %;                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                .;/*                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">               |%*%|░               </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">               &amp;&amp;,|,;/              </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">              ;░░░?!&amp;#              </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">             &apos;&amp;@.░#&amp;#//             </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">            &apos;░:@.|#░.c|@            </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">           ;?/.l%%,;l$|,|           </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">          /:**o&amp;░%c,/%o%##          </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">         %..#??|@!*$#░$&amp;#&amp;#         </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">        !&apos;|l??$c@l/?*c:%c?%/        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">       $░*#/@$&amp;?&amp;??:%@&amp;o&amp;░c░?.      </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">     %?&amp;?l░@##?/*!#:ol░$c%c&amp;c?$|    </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   .|!░l&amp;$!&amp;$%*cc|/@l@/@cl!c*l░o;   </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">  *%c/&amp;░|@&apos;c@co?░$!/*$!|l|;*%%ldcl* </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">|$░/!*lcc*  ░#l░|l&amp;|#%░lc %/*%%░#%!;</text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">  @%,&amp;:░       &apos;!.#|,       #$@%.?/ </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">   %░c         ?&amp;/?&apos;@         /!c   </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">               @!/|░&apos;               </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">               ,#  ..#              </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">               .     ?              </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph0f2">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 @@                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                /&amp;@*                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">               .@░#//               </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">               /@&amp;;?|&amp;              </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">              #?!?|&amp;#*              </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">             $&amp;|/%@*&amp;%#             </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">            &amp;@$.@|/$!/##            </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">           /$$@|&amp;:*░!*|!*           </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">          ░!!?@l$;&amp;|%?@@░%          </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">         &apos;!#░&amp;&amp;&amp;$&amp;!$#*░!%|$         </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">        ?|@l#░!**|#$%@@*!*/$        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">       ░*$&amp;#c|*#*░@?/*%@!%@&amp;?#      </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">     ?|!|░#░/░$*!|░:@!░/#░?$#$░%    </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   *&amp;░/░%░/?@&amp;░&amp;░**%?/░%/%!!&amp;|%#$   </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">  |%!*?@$||?@*!%&amp;!?#|&amp;*&amp;/&amp;/&amp;░|░|$l&amp; </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">.|@$@*!/?░  &amp;!/!*#/$░%!|&amp; %|%!?&amp;@l&amp;?</text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">  $|?@@@       ░/@,@!       /|/#/$c </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">   @%/         /?#?&apos;#         ?|@   </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">               &amp;?#$*#               </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">               /░  /?#              </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">               ░     .              </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph0f3">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 @*                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                *;:@                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">               &amp;/$;@!               </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">               #/@/,&amp;#              </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">              &amp;/@@&amp;|&amp;:              </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">             &apos;*░||!!/;!             </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">            &amp;?/:,|c%:#/@            </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">           ?@/:$:*%c#&amp;;,|           </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">          $#&amp;$@%@&amp;*c!$!,%?          </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">         !░#@#%:!*!&amp;c&amp;*$cc#         </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">        .$%*#░%?!%&amp;c/@*;?cc.        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">       *&amp;/*?!&apos;&amp;:!░/@@c;?c|░?$.      </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">     |@&amp;|c:*%,:#/!cc%%░:!$cc|!/.    </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   ░$|;@c/c!|░;$%#&amp;░:!/$:::@c@**░   </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">  #?$,#$/c!░&amp;;/?*@::#@**@/c?#*?#|l| </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">@$░@?%?c!$  ░&amp;*%?/!:░!@%c %|#:*;??$#</text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">  $$:c|░       ?;%|*░       :#*#@#| </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">   ::$         #!,&apos;|░         @#|   </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">               #&amp;|#|@               </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">               ,@  $./              </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">               |     #              </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph0f4">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 !;                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                .%|&apos;                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">               ░&apos;&amp;;;.               </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">               $.%;|##              </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">              ;&apos;.$,,,#              </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">             &apos;,*|;!*:;;             </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">            &apos;&amp;:?,$%|:c*,            </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">           $$&apos;/&amp;░:|c$c/@?           </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">          ,:|!!*::*@%c;|:/          </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">         @::&apos;&apos;::/*c#|%;??c,         </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">        !::/&amp;&apos;░!!:cc%c$;|##.        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">       &apos;$?c?░&apos;/:%:$/cc;!cccc$@      </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">     .,:@|::;,*:::c!#:;*c?|░cl#.    </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   .&amp;l@|c:!/;;%;#?#::?*$░/:!c:l*░   </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">  .cc,:?$cc;#@#%;;|:|::?,cc!&amp;c:dcl. </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">.░*@|/c░c;  c.:/;;;|░:&apos;l? |c:#c*&amp;l/;</text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">  c&apos;:!:c       &apos;!/#%|       :%:c░o? </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">   %:c         .;,#&apos;%         cc#   </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">               ,*..#|               </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">               ,&apos;  ░..              </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">               ░     .              </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph1f0">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 ,;                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                .;/&apos;                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">               .*|/;&amp;               </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">               ,?,;,$|              </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">              ;&apos;.░,,,:              </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">             &apos;#%.$@,!;;             </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">            &apos;&apos;::*:%&amp;:c/,            </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">           &amp;&apos;&apos;%/░:c%*c#,|           </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">          ,/&amp;,:|*#c?░c;░|░          </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">         &apos;/|@&apos;:/::cccc;&amp;c!,         </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">        |/#!,&apos;░:░!░c$@;;ccc.        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">        #:c:;░?#!:#cc/;░░c$c.       </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">       ?:c:$;,:*░:@c::;:c?&amp;c&amp;       </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">      ;░!░c:;;;|/:::%::|&amp;::cc:      </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">     ?:c$░c;$*;;&amp;@?:%::,&amp;cc?|c:     </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">    ,&amp;c&amp;&amp;;?$0?:;;;*&amp;$:&amp;$0O*c::##    </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">   &apos;:$:?@k?@0!$&apos;;;&apos;#,&amp;Ok/0O@:/:c#   </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">   :/░$kd!0|*Ok#;?/&apos;.kk░$K0&amp;$%c$c   </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">     lO?#/KKKOk,,.*.*&amp;OO?░%0|?k#    </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">    *$$0|KKKKkx,░░O..!░|/KKKK&amp;#|    </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">     o&amp;KK@|K░lx.|OkO,@o░KKK$K0@,    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">      .K?Ko               O|K@      </text>
+    </g>
+    <g class="morph1f1">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 !%                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                #;░&apos;                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">               #//░#*               </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">               ?%,!&amp;░/              </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">              @?.?,,?:              </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">             $?%@░!%@;|             </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">            $░/*,:*$&amp;#;,            </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">           ?%$:;:*$c*c;,|           </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">          #&amp;!!?/!:@#:&amp;$,&amp;░          </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">         %:|%&apos;░!*%c|@!;*@$*         </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">        ░@:*$&apos;*:*:?cc?$?$/?$        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">        |/c&amp;*&apos;:#&amp;@$#*&amp;@@?%c%!       </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">       /*@:*;?░$*%cc|#@:@c*?@       </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">      !:?$c%;%;&amp;::*%&amp;#|@&amp;:░c$&amp;      </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">     ░&amp;#|#c;&apos;;*#!%?:@░:,$c?%cc%     </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">    |░cc?/?/0.!/#|#@!#?|$?#░%!&amp;?    </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">   &apos;/?:!%*|@░k@%$?*!$#O!#$|&amp;:#:c/   </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">   //&amp;d░d*░!??%*#?/||*kO|*0$O#c&amp;c   </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">     l$O|*@??/$!@?.$@k|@KK*$|@░&amp;    </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">    .░O@?@!░$&amp;@,/$%?!!kO░*K&amp;K0O?    </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">     ?!K#&amp;@!@|*!:$|/,#o░%K%|░/#*    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">      .#/K#               OKK$      </text>
+    </g>
+    <g class="morph1f2">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 ,?                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                ?!|/                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">               ?&amp;/**$               </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">               &amp;/$!###              </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">              *#!!##??              </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">             //?$&amp;?*$#&amp;             </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">            /&amp;@&amp;&amp;|?|*c|?            </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">           ;||░░##░@%#$|?           </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">          &amp;!&amp;$░%░|#*░|@!|!          </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">         &amp;$??|@#@?@$/$&amp;$/*&amp;         </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">        $*%&amp;*/?$/!#@&amp;*?%c?!!        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">        @/|%*%/|$!$@░??|?c&amp;%$       </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">       ?░%!#%&amp;|*?%/!!@!:░%░&amp;$       </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">      |*%@@%%%@%@@░%!&amp;#:%:??#:      </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">     !@#%/@!|@/&amp;*|$$/*/&amp;,*%@*/░     </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">    @:*%&amp;*$/%@:$#/@#$#?@#&amp;|░&amp;░c*    </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">   @?#%/!?$|//@#$░!?!░**&amp;*&amp;&amp;&amp;|░░?   </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">   ?░$$$%|░?&amp;O@$$?**|/$O*░&amp;?#%/|&amp;   </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">     $$@@!#$!!░|!*?%*/!|#K░$O%@!    </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">    |%?%@!|@*k$?$$%#@░!@&amp;|&amp;*!??░    </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">     ░?&amp;@!K&amp;!@$░&amp;|@|,*!&amp;|#?|K$!░    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">      &amp;&amp;?$?               @&amp;/!      </text>
+    </g>
+    <g class="morph1f3">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 ,c                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                !%&amp;*                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">               |@*O:/               </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">               !.?$k$!              </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">              !!%!!░*@              </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">             *|;&apos;,░$?░*             </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">            $?@:.&amp;%c&amp;c;!            </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">           $░|@&apos;%,!c/%;%?           </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">          !%|!/&amp;░@&amp;%/░d░:░          </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">         &apos;:@&apos;!*$k$░k*k%??/?         </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">        !@&amp;:o*OOxk*$@&amp;!k:░#/        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">        ::&amp;&amp;k@k/!$?@O░%?░&apos;c!/       </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">       :*c░?|%*$&amp;!/$%░%??#&amp;||       </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">      @:$&apos;k$O?O@░*Ok/O!O?k&amp;░%:      </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">     |*░@@|k%/O&amp;░&amp;|k!|#@/░Ox*|*     </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">    $|#/&amp;!%O%O%kk|░!░k#%0O*@x%?|    </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">   ░░░&amp;d#@O?#kOOOk$!OO!|@*OO@o:!;   </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">   :&amp;?!$&amp;@░|K&amp;!k#&amp;░?&amp;|&amp;O%K#@|$|c?   </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">     l/O!|░#K/&amp;|///@!kO?K*░#&amp;@k$    </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">    .k░$KK░KK|%k?kO|kk&amp;*K$$K@0&amp;*    </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">     oO|@%%!!%|*░O@*$do&amp;@!$░K#O*    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">      $*##o               O░%0      </text>
+    </g>
+    <g class="morph1f4">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 ,c                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                $&amp;/&amp;                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">               ?&apos;kO:@               </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">               %%%k!#.              </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">              ;&apos;.!.o,:              </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">             &apos;/;░#.&amp;:;?             </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">            &apos;&apos;::.@*##c;@            </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">           ;&apos;/.!@,.cc:;,*           </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">          ,:.@░░k%##kk&amp;,:;          </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">         &apos;::@d|&amp;kkkkkk/|c$,         </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">        .::*|OOO*!O$kOO&amp;░cc?        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">        :@*lkO/Ok@0░OO!Ok&apos;cc.       </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">       ::&amp;/?kk?#k/kkkkOkkk,cc       </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">      ;:%#!kOOO*k?Okk|@O@@kc@:      </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">     &amp;?░|k@░k&amp;/O#k/kk/$kkO@@$c:     </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">    ,:c$!O&amp;O0O%kkk|kkkO/0*O0x:c░    </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">   &apos;:c:%$@||0%O%O!O$OO$k0#OOO$:c;   </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">   :$*d/d&amp;0░?O$kkkOk#kkOKK░O$O$cc   </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">     lO|OKKK$Okkkk&amp;kkkO*K@&amp;0@&amp;k,    </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">    .kO░K/KKKk%$kkOkk#kOKK?KK0O#    </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">     oOKK%@KKl@|░%kO$d░*KKK!K!O,    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">      ***/&amp;               O░K0      </text>
+    </g>
+    <g class="morph2f0">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                  c                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 &apos;O.                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                 k#*                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                 %k%                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                |:!#                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                &apos;░#c                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">                !%&apos;c                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              /%l%.cc:              </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">              k#@%.?/k%             </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">             dko|k@!k%?l            </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">            oOO*xkOk$O|k:           </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">           l|O$!#0%!$@!O$%          </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">         .@%░#O!k$#@k&amp;O░k|,         </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">       /l&apos;!kOO%OkkO/k*O&amp;!kkc.       </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">      l%.k&amp;kkkO#O#Okk@O$!/$xo$      </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">        kOO░0@#!#k|k|!O?!O$0x       </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">       &amp;d!O00*OO|kO#!OOk!/O░@o      </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">      d@dO|KKOkk|kOk░?k%K░0OOOc     </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">     lO@O░K░?|k%kkkkk$&amp;O$KK0O#░|    </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">    .k#0K$KK/kxkk%O!kk#?K░*|%0Ok    </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">     o?&amp;KKK*Kl#l:░%#,do░K░K*K0O#    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">      $/&amp;&amp;o               OKK?      </text>
+    </g>
+    <g class="morph2f1">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                  %                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 ?░/                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                 |!#                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                 #?*                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                .:░o                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                %,@c                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">                $|!*                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              ./l!.*%$              </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">              &amp;%?:/$k|%             </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">             dko/|*k!$kl            </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">            $#%O?k#!kO#!|           </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">           lk|k?!%*@%$k&amp;#!          </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">         #?!%k?░░?%k@░!&amp;$&amp;/         </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">       /*&amp;@kO*&amp;O%!/!$|░░#&amp;$c@       </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">      /░#k|*#&amp;$&amp;Ok$##%/?░O#xo.      </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">        @!O?$&amp;O@k%#kk!OO#░@/░       </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">       /!|&amp;/%k&amp;#*kO*░?*!!!?O?o      </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">      ?kd#/KK@@$!|Okkkk%@!&amp;/?O*     </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">     |%?$@#%░O!░$k$/k@O?|/K0&amp;░@|    </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">    .@@#KK░|&amp;!??/@@k$@%OK%*&amp;!0O%    </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">     ░%KK?%$%$/#$!|&amp;|%%!*?%K@&amp;!/    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">      #K#*#               O$K$      </text>
+    </g>
+    <g class="morph2f2">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                  @                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 |░*                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                 ░|:                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                 ░|!                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                |%░$                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                !#!@                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">                ?&amp;!#                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              ?&apos;?!*$##              </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">              /:/!?░$|&amp;             </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">             &amp;#*&amp;%?!░k?%            </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">            @*$!??!&amp;kO$@$           </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">           $$@k*░#░|░$%/?%          </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">         ?@#*||!||&amp;@@&amp;?░?&amp;?         </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">       &amp;$░!&amp;$$#%@$!$&amp;*$%O@&amp;c%       </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">      ?!!$?%%**?*!░*?!$!&amp;░$x@&amp;      </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">        &amp;?@#@*|?&amp;||@/$%!$░%$!       </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">       ||**@||/!%@??%|&amp;!░/?%O%      </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">      #|@&amp;|░@?/%@/#*#!!@KK#@%/&amp;     </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">     @░/!@$&amp;!!#@|/?%&amp;?%░#!&amp;░░!|░    </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">    ?/#*!/░&amp;!@$░!|$k|/@/#*?@&amp;%*&amp;    </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">     ░░$|%K|%*&amp;##|/&amp;|@?░░&amp;@|&amp;%&amp;#    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">      ./?!?               #*##      </text>
+    </g>
+    <g class="morph2f3">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                  ░                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 *O|                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                 &amp;&amp;@                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                 ?&amp;k                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                /|*%                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                ,#|/                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">                @.?&amp;                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              .@l@@;@░              </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">              ░$cc/@ck|             </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">             */@?*$%#*!l            </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">            *O&amp;*cd$░░&amp;$&amp;?           </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">           $;??@/*!$░!?*/|          </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">         .c*l??c*/%&amp;#?/l#;/         </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">       ?|l::&amp;?c$░c*|!@c!*?%c.       </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">      l%|:;:░@&amp;*$#l!::c#?|$#*.      </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">        $░#:*,|#c$*##,|#:░*!x       </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">       /!!&amp;0@.!$c@!&amp;;░#k0!/OO%      </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">      ░&amp;#O/&amp;@:?*|#Ok░/░:#%*?@/c     </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">     |*O*Kc/:$$@**$k@&amp;c:$@@!/O!$    </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">    .%*@%?K#/k░░#/||$&amp;|@!&amp;%&amp;░|!k    </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">     *O*K$K!$lx@░OkO,@$#?░?|%|O$    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">      .K|@░               O%K|      </text>
+    </g>
+    <g class="morph2f4">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                  c                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 &apos;@!                </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                 *O:                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                 ./$                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                .c;o                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                ,,;?                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">                :.,.                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              .&apos;l,$@#:              </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">              |$c&amp;:c&amp;kd             </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">             d;c*l:/&amp;&amp;$░            </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">            /Olc░d░@/:O&amp;:           </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">           .&amp;ll|$%cccll░k@          </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">         ./#lccc#!cc:@c&amp;@$|         </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">       @ll:░!@@ccc!c!:c░:c|&amp;.       </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">      $|!:?::/:*c|lc::c::?:c@.      </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">        ?::::?|:c?lc@@,:%;/0x       </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">       /#kO0*.&apos;@cccc$$,k0&amp;OOOo      </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">      dkdO*!?//&amp;/.O$;*:?&apos;K0░░Oc     </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">     lO*OKc::*?kk!k/k%c:c░!0O!k%    </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">    .kO?KKK$*kxkkkOkkk|%K%KK&amp;?$%    </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">     //KKKKKKlx@:O/**dox@%||K$O,    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">      .K**#               !$K$      </text>
+    </g>
+    <g class="morph3f0">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                                    </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 :                  </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                c|                  </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                d||                 </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                lc░                 </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               #%&amp;;                 </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               d:./.                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              ░o/&amp;;;                </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">             ..c/░!c#               </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">             d$ccl*cc.              </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">           !dolccd/cc##.            </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">         :d&amp;&amp;*!c!|&amp;c%ll,l.          </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">      .c/&amp;c&amp;lc@cccc!::c$l!$!        </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">    ?c@░░*:%//c&amp;@ccc::*::$/$░&amp;      </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   ox|ll::;:%$:/c|l░:*c??:!$*#l.    </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">   .    %::#:,*:!o!c*,,::/;         </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">           &amp;*.@/c!c░;.%             </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">         &apos;:,*░:░░░  ░::$&apos;%          </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">        odc::,       #?:c@.         </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">         ;               ,          </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                                    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph3f1">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                                    </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 :                  </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                !|                  </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                d.░                 </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                ░&amp;$                 </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               &amp;,!;                 </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               &amp;/.|!                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              lo&amp;/#/                </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">             /&amp;c░c░?c               </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">             ?;|░|&amp;░|/              </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">           !!@l!$%|cc&amp;?!            </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">         $d@%#!&amp;!@|%c&amp;#%/$          </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">      @c░.@░$#c@cc#&amp;|&amp;!$l@c*        </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">    .&amp;@,*@!%:cc&amp;#ccc%|c:#c#$|&apos;      </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   o@$░l/!/@?c*c#c░@:?#||::*$?##    </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">   @    !#░*:#*!@%lc?#/@$%!         </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">           %*.?#&amp;/░░░#,             </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">         &apos;%/c░!$*|  &amp;|::/|          </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">        $$!:░,       !$:&amp;@@         </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">         &amp;               ,          </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                                    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph3f2">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                                    </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 |                  </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                !?                  </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                $!#                 </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                ░#;                 </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               ?$|#                 </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               ?*/?&amp;                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              |@$/&amp;░                </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">             !?&amp;c#!|@               </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">             $#░&amp;//%@$              </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">           $$@?|░?░c&amp;/##            </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">         |!$|$@/░|@|!l|&amp;&amp;?          </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">      &amp;?/@?*/**/?c!&amp;|&amp;|#?@*|        </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">    !$$%%#!%!*?!?%#|!/#?*|?░?@      </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   ??#|$%|*&amp;%*@|░*?c░$#%░:%&amp;*%░?    </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">   /    ?#%░$░$$#%/??*|!%&amp;░         </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">           /*./|#$@**|?             </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">         &apos;&amp;|&amp;#░?.?  *!:#░$          </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">        %?#*:@       *?@?/░         </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">         $               *          </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                                    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph3f3">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                                    </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 :                  </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                c&amp;                  </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                |*%                 </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                |@$                 </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               /l*;                 </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               d!;!%                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              l#!;;░                </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">             |?░%!@:#               </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">             ??$?#:l$.              </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">           %d|%!!?$ld?|.            </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">         $#x&amp;?#||c:*$$d!l@          </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">      |@&amp;*!@$&amp;cc$@**$$$$lo%$        </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">    *c&amp;#cc!/:?|/@░c@&amp;#%c@#%&amp;o|      </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   o@&amp;$$!:@&amp;░%c::*##;*/??!%od#?░    </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">   ░    ?░:/?&amp;|:!@/c;#?:/@;         </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">           ░░:*;?%*!#;?             </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">         &amp;%*|.*&apos;.@  /!*;!.          </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">        o░|%!!       /;░!@|         </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">         $               ,          </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                                    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph3f4">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                                    </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 :                  </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                !░                  </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                dd.                 </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                &amp;%;                 </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               ,#&amp;;                 </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               &amp;&amp;░;%                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              lo$;;l                </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">             .l:o:;:/               </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">             docc;:ld.              </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">           ,d!?%c#:ldl#.            </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">         :@%&amp;/c/cc:░ccddl%          </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">      .|&amp;$lc/:/|c::c*:&amp;░loc░        </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">    /c@dcc?c??c::@c@::?c|c@do|      </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   oxx%c:#/:::c:░?cc?$::::%|d!l.    </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">   .    |:*:%;*:░:c|!&amp;,%:;;         </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">           &apos;::;;::#$░;;             </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">         &apos;:c:?!%%:  !$;;,.          </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">        o|c%:,       *;;|d#         </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">         &amp;               ,          </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                                    </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph4f0">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 ,                  </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                *&amp;                  </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                c$░                 </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                dd.                 </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                !:@                 </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               ,░#&amp;                 </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">              .dc;;░                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             .lo:;*l░               </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            /.l:$@;%/;              </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           ;!░$c%;?ld/:*            </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">           ,d&amp;o*cc|l@░:.            </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve"> ,..     :&amp;x#c!░c?/c%|d|l.    %.&apos;,  </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve"> ,:░:#@cd/&amp;c:#cc?::c::c!loc&apos;;c|:@$  </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   ..c/dc/!/::c*$░c!:|$#?&amp;odo&apos;:     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   oxxdc::$:?:#::%cc;/░?:&amp;&amp;&amp;dd!.    </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">   .    .:::.;:$c*%c;:::#:          </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">           &apos;::;;:%:|;;;.            </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">         &apos;?c:!?:.*:@:?;;!.          </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">        od░&amp;:%:?/;:::,;*#d.         </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">         ;?,:;@:|.$%:/;,/,          </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">          ?,:       /,&amp;&apos;!           </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph4f1">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 |                  </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                .:                  </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                #░@                 </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                *d*                 </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                l&amp;#                 </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               ,l@*                 </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">              &amp;dc&amp;@%                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             @&amp;!|/?%:               </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            @?l:|%@:*;              </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           /!do%$*/$d&amp;$@            </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">           !!o&amp;%#c%$$@@░            </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve"> #░!     $$#$|&amp;ccc||$c/@%#    .%??  </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve"> ░&amp;:!|%#░&amp;@c%░░?c:$*?$/l#!$&apos;###??@  </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   &amp;#?!/c??*&amp;&amp;&amp;:&amp;:*c:@c&amp;%co!%&apos;:     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   o%x%*:||/@?/░@$░!/:%::#@##dl*    </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">   .    ░|#:.&amp;??|/*?#░@#:#          </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">           $*$@&amp;@!%:;░*#            </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">         &apos;:$%!!░&amp;?$|#;;;?&amp;          </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">        ?%*!:|*@*|%@??/?/$!         </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">         |░!:;:?;.;&amp;&amp;!;&amp;:|          </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">          .$:       *@░*/           </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph4f2">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 $                  </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                /$                  </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                |@*                 </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                d!%                 </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                $░;                 </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               /!%*                 </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">              $d%*|@                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             %&amp;$$/*$░               </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            ?!&amp;@░*|&amp;?@              </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           %||#!#@$@*@&amp;%            </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">           |░?o%░░#*#@|?            </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve"> @&amp;%     !/?%$%|@&amp;/|&amp;@*/@@    #%#|  </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve"> /$%**?%#@░%!*$*?@|!░&amp;|/#%**!/!:?*  </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   ░@#**!!c#&amp;/#@*#@@░*/*&amp;?!!|#@     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   ??░@$░#░**??@&amp;#@%/*|#$?!/|d!*    </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">   *    !#!?░!%?c#*@;$||$%          </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">           !#$&amp;*░@/@&amp;;%#            </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">         @&amp;&amp;%░$@░#%$/?*?&amp;$          </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">        *?c???░%$░|/░@/&amp;%░!         </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">         #|#░*?/%$$$***@|$          </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">          !*@       !%$*░           </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph4f3">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 ,                  </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                &amp;$                  </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                |:.                 </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                */;                 </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                !**                 </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               #/%;                 </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">              /:░:░:                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             $|:;░:$#               </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            |!|*░░:|:/              </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           *$;!|;|&amp;&amp;@#!$            </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">           %*?*/&amp;:$?|:@.            </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve"> &amp;░%     ?&amp;*o/:$░!:?!|!?/$    /░@%  </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve"> ,$::*/*.%l//|$%&amp;!/@*:%l$.@?;|::@.  </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   /|&amp;*/:*|@?&amp;░%░/#:?:/|#@!!/$|     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   &amp;xx!#!:::::?$@?!||%$$:░|:&apos;@#░    </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">   .    *$&amp;*&amp;%%://|:/:|/|$          </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">           &apos;%@&amp;$░%░░!%?.            </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">         !*#;%$*$$:??:%@/#          </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">        *d//;::::#@:?$&apos;||%@         </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">         ;*&amp;??|:|.%:!@;|$/          </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">          /#:       .&amp;|&apos;.           </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph4f4">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 /                  </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                .:                  </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                ;:/                 </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                &amp;?&amp;                 </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                #░#                 </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               #;$;                 </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">              ?:;:|*                </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             .&amp;:;#@:$               </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            &amp;:::;%|:*;              </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           /&amp;;:%@:/:&amp;::!            </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">           ;:;#/::$:*::?            </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve"> #!.     $d|o;:░:/@|░#d|&amp;.    !.|,  </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve"> ,/:!c,#&amp;dl@;;:$$|:@%?!ll.%#;c:*:.  </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   ?c!@:?%#:|:?:?:::/%?c#$:#&amp;l*     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   o░x::::::!#:::::::?::&amp;:::#dl.    </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">   .    !*::**$@@?::%:::@/          </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">           $:@?:&amp;*|:&amp;:;.            </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">         &apos;:;;:::!:@!::&apos;,,|          </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">        ░d&apos;|;::*:;::::&apos;,.d@         </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">         |;|:&amp;:?$&amp;%░!?&amp;?:,          </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">          .*:       .*;&apos;.           </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph5f0">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 ,&apos;                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                |:k                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                ;:*/                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                ,/;,                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                ;|:$                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               &apos;░c;:                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">              .:&amp;:;:;               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             .:*;::::d,             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            .&amp;::;!:::;|o            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           ;|;&amp;$;&amp;::&amp;*:&apos;?           </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">          .;:;:$|░::%::&amp;/.          </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve"> &amp;..    .dkOd;/::::::@&amp;x$*░   ?./,  </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve"> ░?$:c,&apos;.#//%░:!::&amp;:::,c!|@&apos;;c*$:.  </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   .*#c?::c&amp;#:&amp;*/::%::%c::?:l#?     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   #?░::::::::/!::::$::::#::&apos;!ko&apos;   </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">  :OOxc!.::!:*:*:::#:::::░c|?/kOO$  </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">      ;d$dl*:::::░#*?/*|:?ddo&apos;      </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">        &amp;░o;;&amp;:::::!#:&apos;&amp;lcd.        </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">       cO%&apos;&amp;;?:::░?$:&amp;%,.&amp;dO/       </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">          |,?;@:?.;:::;!:           </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">          .,*    .  |%;/.           </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph5f1">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 ?░                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                #:?                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                ░#&amp;!                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                !:!!                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                @$?;                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               /&amp;&amp;;%                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">              @&amp;!$/:!               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             ./*;|*:$/|             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            ░$:|#░?*#;/o            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           ;###&amp;*!!!@::$.           </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">          ░$?;::#!@:░%:$&amp;.          </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve"> ,!&amp;    .!░Od?░$#%%:░*@&amp;!x@   $#|%  </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve"> ,@!%@?&amp;/Oko@*|/░:!!$!!░!&amp;./;c$*%$  </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   .░!!#:$#&amp;!&amp;:$/*#*|?*c?░::%l:     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   ,k$#%:%!&amp;|@░##&amp;:%░|#$%&amp;#|&apos;?!@|   </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">  |&amp;*$c*%#|#?*:/@:%@!/::&amp;%*!░c#|O.  </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">      @$d||$&amp;$&amp;#$$:%::%*@//d/&apos;      </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">        ░k░#;:@%&amp;@$::&amp;&apos;!|#d/        </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">       ?░%&apos;,*:#:/|#:░#!#||/O?       </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">          $@░;::░.;%#:$,:           </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">          /,#    .  %,;*$           </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph5f2">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 |%                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                *@/                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                @░$#                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                %?|%                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                @░%&amp;                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               @/%;░                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">              @*;:|!&amp;               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             %$#!/|$%░&amp;             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            %@##░#&amp;$%!$*            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           |░&amp;??$!$#&amp;$@@%           </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">          ||$|/?░|!%@#?@░%          </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve"> ░/.    !&amp;#|!*!░#%:!*@*?&amp;%?   |*%$  </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve"> /|!*%!@**$/&amp;;&amp;@!?&amp;#*%░!*!/$?%|@?/  </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   /$%$/#/c|@@*░:░|!%?|c*$!*%@@     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   ░/?|$/#░░!%$?@@?%%░░*/&amp;|/*?$|*   </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">  %/%%?░*:|&amp;%:@%*@#|%/@%░░?$||*|%$  </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">      $?||@?#$|#*@!&amp;&amp;?%*@$%!?&apos;      </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">        *@?%░%@&amp;!@!|&amp;$|?░!#@        </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">       ░|░░?░?$|?|░$::@***/%&amp;       </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">          #$:|#:@%$$%*/**           </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">          %░|    @  ░|;$|           </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph5f3">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 |&apos;                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                .&amp;?                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                :*░.                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                $/;,                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                %$$*                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               @%$;:                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">              .c@c/&amp;*               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             &amp;@|/cc%&amp;//             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            #&amp;*?oc@:?%%|            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           **||*|cc░cx@%$           </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">          .!@@#!?c%/░░x?*&amp;          </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve"> ,..    %?&amp;Od&amp;|o/?!c$&amp;/*O!░   .|&apos;@  </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve"> ░@%:?|/!O#&amp;$|#/c#/%:!!$$|░/$c&amp;░:░  </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   ░$?@#|#?*&amp;?&amp;!░&amp;#lc:|c░%ok%/,     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   ,k/$@c||c░??*!&amp;c░@@?!&amp;!*/%$░░&apos;   </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">  ##░░c@@&amp;@c░!*/;%$&amp;|*:!c*$%*$!/**  </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">      /d$d$*!&amp;:|;##:|%!c:@dd*?      </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">        $&amp;*;!:|?:@|/!,?ll?&amp;.        </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">       ░/?&amp;d%$@$&amp;%c$/%$$d!d|,       </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">          ;!@;|:&amp;!*:!!/░/           </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">          .$:    %  ./;&apos;%           </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph5f4">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 #?                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                .0k                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                :oo.                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                l|!!                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                |:/;                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">               !@&amp;;:                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">              &amp;#dc::$               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             cOkocc|x░,             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            /O$x$c@?dOk@            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           ,OOdolcc:cx*O.           </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">          .#@|l@c#cccc%O!&amp;          </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve"> ,/.    @d*|d░l|c$cc?c&amp;xOx#   ..&apos;,  </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve"> ,:::c,cOO||c|ol|!/c:**cd%kx;@|&amp;/.  </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   .cckO/occ|co&amp;&amp;c%lc:c%#/%@kd,     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   ░k*k!&amp;ccc?*c;;c|:;#c:c@c&amp;dO░|&amp;   </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">  ░$#░ccc@!c;/?;;cc:;|@;ccc||%?O|.  </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">      /dddl;&amp;::/;c%:;*|c$░/d@&amp;      </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">        ,#$;?::;:cc@;,:l*c?.        </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">       c#|#%c.c*.cc#l@.l&amp;&amp;$O,       </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">          ;o%/#:;c@/::;%%           </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">          &amp;|:    .  .,;&apos;%           </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                                    </text>
+    </g>
+    <g class="morph6f0">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 o&apos;                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                *0k                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                :?o.                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                lc;░                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                l|#*                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                %:%/                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               ░dc#:*               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             $#!o░*&amp;%*$             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            x??x!/##d░ko            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           ,O|d$l#|:@xO░&amp;           </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">          %░Odlocc*ccc?#x.          </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">        /dkOd$|o/ccc|ccxOx:         </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">       cOO#occolc!cc:c%&amp;dk%x*       </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">     $kOkocccc@c@cclc!cccc|/|d|     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   ,kO%occ&amp;c:c!??%c:;?c:cc@c/#ko&apos;   </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">  :OOxcc/c░#;::;!cc/;,:&amp;cc%ccck|$|  </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">     ,;#dd##;░?;;?$!/,;c|lddo*&amp;     </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">    $@!:@ko░;/:;:c%/;,:l$%#.@:c,    </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">       cOOO*░/&amp;:%cc.l#&amp;l**dO,       </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">           o@  ,;#::;  &apos;:           </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                 %/@                </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                 |&apos;                 </text>
+    </g>
+    <g class="morph6f1">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 $|                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                %#!                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                :o&amp;.                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                l?$?                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                l**!                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                &amp;#;|                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               &amp;!#?%%               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             !@k$|░:#$,             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            x$$%&amp;c&amp;:dO?@            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           /!O#o|%c:/░!O.           </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">          ?&amp;*/@|$/!c#!?#@%          </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">        ░d░░d$%o#?%░@c#?&amp;!&amp;         </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">       *#&amp;$#cc**░##@:c░!d?/?&amp;       </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">     |/!%#/?!c░c%|c#|&amp;&amp;c░/o@░|#     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   ,|!k?/%c%$░$??%%#!#|&amp;&amp;c*░d░!%░   </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">  :/*x/?$@*?*░/;;c*://:*|@%*|c!@%%  </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">     ░/d!dl#/|%%&amp;?c?@#░$&amp;%|?|$*     </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">    .:!:*#@@@:?;&amp;/%*//|#$c&amp;?c&amp;|#    </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">       %|OO@@!|/.%|@l&amp;#$@|d&amp;,       </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">           #.  ,|@@|*  @*           </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                 /|#                </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                 %@                 </text>
+    </g>
+    <g class="morph6f2">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 %#                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                &amp;$@                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                &amp;/%%                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                $#?&amp;                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                @@//                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                ░/%!                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               #?@//%               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             &amp;&amp;@!░░?░/%             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            %%|/?@#|**$o            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           ??#*%@c!$/*░$!           </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">          ?!&amp;@░$!@%/c|&amp;&amp;@?          </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">        @d#|@c░%?░!&amp;%%!%|&amp;?         </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">       &amp;░&amp;|**/*░&amp;%c@#/@c*k!?$       </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">     !░O&amp;&amp;*/!|&amp;|&amp;$?!|:?@*&amp;$*@?&amp;     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   ##O@|#|//:|░*!##|#%*&amp;!|#c&amp;|**!   </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">  *$%@%/&amp;#░?&amp;?░#&amp;|#*?*#░?!%#//k/**  </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">     ?/!/$/?|/@$?$?$@&amp;%#%$*#!!*     </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">    .$%%%|#░$||/░#!?|%??@!|!!$░/    </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">       &amp;░@░?!*/%░*$*/!%?|$%?%       </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">           o!  *#$//$  ░:           </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                 $$*                </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                 $&apos;                 </text>
+    </g>
+    <g class="morph6f3">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 ..                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                @░|                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                #&amp;?.                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                #!/&apos;                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                ?!░$                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                $:░@                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               *░%:$;               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             $#*░!░&amp;|d?             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            x/@&amp;!*%:!?|o            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           #?,/:!*::c#░$/           </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">          ░$:?░|#&amp;*;c||?@░          </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">        ?/%!%:*?;*@@$$░!@#!         </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">       c|/#c/$%$/?:?:@:&amp;c*&amp;%?       </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">     !░@&apos;/#%:/:!|░!!/::!&amp;!$&amp;@#@     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   !/?!.!$%░:&amp;?|&amp;/::?#%*:*:c&amp;@?$*   </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">  :&amp;$░*/|@|/&amp;:░░*;|%/::::!#%c░░#|$  </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">     &amp;%/|*:?|&amp;@|;:#?/#:*#@@░:@;     </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">    .@░:#░?:*?@:!::&amp;&amp;$|$░c:?&amp;:$,    </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">       &amp;O*#dc.c;#::#:|.*d?%@$       </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">           *!  ?@/::|  @#           </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                 /!%                </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                 &apos;!                 </text>
+    </g>
+    <g class="morph6f4">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 #.                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                /;?                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                :@:.                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                ?,$$                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                |,░;                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                ;:*@                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               *;:::;               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">             ░/k/::#&amp;d%             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            ?OO,#:://.k/            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">           ,O?&amp;:;::?$$;O.           </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">          .░:$::;!░;|/:c|.          </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">        *░.!c::%░@&amp;@|!#c;/:         </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">       c@|?$$:::|;:**:::$#@?@       </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">     *$░░c░:::?:#$::░*:&amp;::c,|d,     </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">   ,kO|.::::$%::;;:::&amp;:?&amp;@|$?Ok%*   </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">  :&amp;Ox;@#:::#::#;/:░:&amp;:#|?&amp;:!*kO░!  </text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">     ,c::|$:::::;::::/$:::!?%c#     </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">    .&amp;::!%:/::::;$%*&amp;c░cc/:*c?░,    </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">       cO#░dc%|;;:::::░l?$%*,       </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">           o.  ?;:::%  &apos;#           </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                 $*$                </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                 &apos;&apos;                 </text>
+    </g>
+    <g class="morph7f0">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 .@                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 ;|                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                 %:|                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                .,;&apos;                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                |,;$                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                ;:%:                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               &amp;░*$@.               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              |l;/$:!#%             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            .;$,:!::/@o!            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">          ..l*?░;:?#$░;l?.          </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">         &apos;#@:::?*::░!|!@.ll&apos;        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">       &apos;!!.:c░@:*@::░/:c$&apos;?lc.      </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">     %,l@&apos;%%::::;|$*%:::%░@l░!,.    </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   .░l$$**:::::░*;/:@:/$%:%,o&amp;l&amp;@   </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">  .ccdl.:!:::$::;;#:::$#?::c/cld$l% </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">.*?/@c;c::::&amp;/?:;/#:$?//:&amp;$:/;:c?ll;</text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">  c|░,c:#:?:░!:@#::░:::░@:/:|@; .$c </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">    &amp;::%:$:::#::;:$::/░cc?@c#&amp;c,    </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">               ;*::%:               </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">               ,;*/:;               </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                 ::#                </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                 &apos;&apos;                 </text>
+    </g>
+    <g class="morph7f1">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 |#                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 #|                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                 &amp;░.                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                .,!*                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                |&amp;$$                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                ░$?*                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               /;░:/#               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              .&amp;/**@$*.             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            .$#?&amp;|@!;@!:            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">          @.*,#/|#&amp;?@|$%$!          </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">         !/.@/░$@░?#&amp;??@.░@/        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">       @░$#*&amp;#!?|::|/@░*%!!l*.      </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">     !*%?&apos;?$!|::%!:#░:#░!:/*░l&amp;|    </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   %#/l░&apos;@@&amp;/:░|#&amp;:::*//|/c░|#░|%   </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">  .@!*%?#%?:@%$?|;░/##?:!|#%&apos;%@d░%! </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">$*!/l$░|%/@$*$&amp;:?&amp;%::*%/&amp;$::░?:/!|!;</text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">  ***/!*#:@@$||/#░:$:%$/#|░::░; .$? </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">    |:|:/%#?$@*:?:&amp;@:%$c&amp;!░c@&amp;%░    </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">               #|!!!&amp;               </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">               ░;@$|@               </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                 ::.                </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                 *!                 </text>
+    </g>
+    <g class="morph7f2">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 #|                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 $?                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                 |&amp;*                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                ░$?░                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                #░@&amp;                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                @!?!                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               #&amp;|$@░               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              %#%*░?$//             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            ░%%|░?!|;@/:            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">          ./?&amp;&amp;&amp;#%@%!##░!*          </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">         %*?|/&amp;%;$?;&amp;?░*.%#@        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">       #@&amp;*%@&amp;$|!!#*%░||;*?/*%      </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">     |/@&amp;!#&amp;|%*$|@/%@$/*&amp;#$&amp;c@?!    </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   *%░*?%&amp;&amp;#$*:/?|$?%||@|$%?&amp;?#&amp;#   </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">  $&amp;|$|**#%:*&amp;$$%??$&amp;$||░:!░@!*!/░$ </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">!??%l?$@@@##%://*@░@:&amp;|@@%!*%**/&amp;#&amp;&amp;</text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">  $/*%%%/$&amp;|%#░!;$@&amp;$@!?%░#@$!| @$! </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">    .%%/?/|%|?$?%/:/|c@**$:#|░|#    </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">               !░░&amp;?*               </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">               ░%:%||               </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                 ?░/                </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                 ??                 </text>
+    </g>
+    <g class="morph7f3">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 &amp;.                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 ;:                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                 /|.                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                %,?*                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                /@|!                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                $@|&amp;                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               !@$$%.               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              ?&amp;$|/*|l%             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            ░&amp;o$*!/?$?o░            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">          ░@?l&amp;c/#$&amp;@!!???          </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">         *%lc$░|*!?*&amp;##$c!l&apos;        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">       |:&amp;|l#$?#c@c:░!%#?!░#c$      </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">     &amp;|/░$%!@&amp;!░$!l/#l:?░$c?&amp;#&amp;.    </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   ?$?&amp;l@!l|c!o??&amp;$!!c/c?%$!oll░░   </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">  @c&amp;@!░/|@░!%%c%l!|░@$@/%;%%?!/cl% </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">%@#*░c**|:%:%$l?.l░/%.l&amp;***:c;:*&amp;&amp;l/</text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">  %?&amp;|$$░!:?:!:░??░░:!:|#!:@:c? ░$# </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">    .|/:!?░░@?:|;!&amp;#/c&amp;?cc░cc|@!    </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">               ?&amp;::*?               </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">               %?|?:|               </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                 ::.                </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                 ?$                 </text>
+    </g>
+    <g class="morph7f4">
+      <text x="18" y="28" class="glitch" xml:space="preserve">                 &amp;.                 </text>
+      <text x="18" y="47" class="glitch" xml:space="preserve">                 ;:                 </text>
+      <text x="18" y="66" class="glitch" xml:space="preserve">                 ;:|                </text>
+      <text x="18" y="85" class="glitch" xml:space="preserve">                .,;&amp;                </text>
+      <text x="18" y="104" class="glitch" xml:space="preserve">                |,@!                </text>
+      <text x="18" y="123" class="glitch" xml:space="preserve">                ;:@:                </text>
+      <text x="18" y="142" class="glitch" xml:space="preserve">               %.!/:#               </text>
+      <text x="18" y="161" class="glitch" xml:space="preserve">              |ll:,;l!.             </text>
+      <text x="18" y="180" class="glitch" xml:space="preserve">            |%ol░;#,llo:            </text>
+      <text x="18" y="199" class="glitch" xml:space="preserve">          ..llc&amp;░&amp;c&amp;c$*l&amp;/          </text>
+      <text x="18" y="218" class="glitch" xml:space="preserve">         &apos;@l@@lccl?:%%##cll&apos;        </text>
+      <text x="18" y="237" class="glitch" xml:space="preserve">       &apos;:lclcol&amp;$l?:&amp;c:oclcl!.      </text>
+      <text x="18" y="256" class="glitch" xml:space="preserve">     .,%c$&amp;c#/c&amp;lll:%l$&amp;cc?l?|,.    </text>
+      <text x="18" y="275" class="glitch" xml:space="preserve">   ?;$%l*░/lc|occ$c:lc/*c░░c#l$?#   </text>
+      <text x="18" y="294" class="glitch" xml:space="preserve">  .cc&amp;lc░*&amp;cl$o|/%@:$cl$l*|░,cl@?l. </text>
+      <text x="18" y="313" class="glitch" xml:space="preserve">.░lll@l/%:?:c?l.%%/:/.ll&amp;/|:|&amp;#c|l|/</text>
+      <text x="18" y="332" class="glitch" xml:space="preserve">  c|,#c::::&amp;:#░?;.!*:?&amp;::░::░?; .oc </text>
+      <text x="18" y="351" class="glitch" xml:space="preserve">    .:%:$:*::*░:;$░:|$cc%|:cc:|&amp;    </text>
+      <text x="18" y="370" class="glitch" xml:space="preserve">               ;;@%@:               </text>
+      <text x="18" y="389" class="glitch" xml:space="preserve">               ,%:/|;               </text>
+      <text x="18" y="408" class="glitch" xml:space="preserve">                 ::.                </text>
+      <text x="18" y="427" class="glitch" xml:space="preserve">                 @&apos;                 </text>
+    </g>
+  </g>
+
+  <!-- Separator -->
+  <line x1="352.0" y1="12" x2="352.0" y2="448"
+        stroke="#30363d" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+
+  <!-- Info Panel -->
+  <g id="info-panel">
+    <text x="364.0" y="28" class="title">Dolphin-Syndrom@github</text>
+    <text x="364.0" y="47" class="dim">──────────────────────</text>
+    <text x="364.0" y="85"><tspan class="label">OS: </tspan><tspan fill="#c9d1d9" class="val">Manvith Bhandari</tspan></text>
+    <text x="364.0" y="104"><tspan class="label">Host: </tspan><tspan fill="#c9d1d9" class="val">Earth</tspan></text>
+    <text x="364.0" y="123"><tspan class="label">Uptime: </tspan><tspan fill="#c9d1d9" class="val">21 years 11 months 6 days</tspan></text>
+    <text x="364.0" y="161"><tspan class="label">Languages: </tspan><tspan fill="#c9d1d9" class="val">C/C++, Python, Javascript</tspan></text>
+    <text x="364.0" y="180"><tspan class="label">Frameworks: </tspan><tspan fill="#c9d1d9" class="val">FastAPI, Django, Nextjs</tspan></text>
+    <text x="364.0" y="199"><tspan class="label">IDE: </tspan><tspan fill="#c9d1d9" class="val">VsCode, Antigravity, Neovim</tspan></text>
+    <text x="364.0" y="237"><tspan class="label">Packages: </tspan><tspan fill="#c9d1d9" class="val">43 open repositories</tspan></text>
+    <text x="364.0" y="256"><tspan class="label">Commits: </tspan><tspan fill="#c9d1d9" class="val">440</tspan></text>
+    <text x="364.0" y="275"><tspan class="label">Stars: </tspan><tspan fill="#c9d1d9" class="val">27</tspan></text>
+    <text x="364.0" y="294"><tspan class="label">Followers: </tspan><tspan fill="#c9d1d9" class="val">17</tspan></text>
+    <text x="364.0" y="313"><tspan class="label">Contributions: </tspan><tspan fill="#c9d1d9" class="val">466</tspan></text>
+    <text x="364.0" y="332"><tspan class="label">Lines of code: </tspan><tspan fill="#c9d1d9" class="val">1.6M</tspan><tspan fill="#8b949e" class="val"> (</tspan><tspan fill="#3fb950" class="val">1.5M++</tspan><tspan fill="#8b949e" class="val">, </tspan><tspan fill="#f85149" class="val">43.9K--</tspan><tspan fill="#8b949e" class="val">)</tspan></text>
+    <text x="364.0" y="370"><tspan class="label">Shell: </tspan><tspan fill="#c9d1d9" class="val">zsh</tspan></text>
+    <text x="364.0" y="389"><tspan class="label">Aircraft: </tspan><tspan fill="#c9d1d9" class="val">B2, F117, F14, F22, MIG29, SU47, SU57, TEJAS</tspan></text>
+  </g>
+
+  <!-- Blinking cursor -->
+  <text x="551.8" y="28"
+        class="title cursor">_</text>
+</svg>

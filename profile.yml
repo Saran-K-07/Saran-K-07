@@ -1,0 +1,31 @@
+# Profile Config
+github_username: "Dolphin-Syndrom"
+username: "Dolphin-Syndrom"
+hostname: "github"
+
+# Personal Info
+name: "Manvith Bhandari"
+birthdate: "2004-08-16"   # YYYY-MM-DD — used to compute Uptime
+location: "Earth"
+
+# Neofetch Fields
+os: "Manvith Bhandari"
+host: "Earth"
+languages: "C/C++, Python, Javascript"
+frameworks: "FastAPI, Django, Nextjs"
+ide: "VsCode, Antigravity, Neovim"
+shell: "zsh"
+
+# Aircraft directory (drop .txt ASCII art files here)
+aircraft_dir: "aircraft"
+
+# Animation timing (seconds per aircraft in the SVG animation)
+aircraft_display_seconds: 3.5
+transition_seconds: 0.5
+
+# Dashboard dimensions
+svg_width: 850
+svg_height: 420
+
+# LOC cache file path
+loc_cache_file: ".loc-cache.json"
