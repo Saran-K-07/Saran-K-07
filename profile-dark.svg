@@ -1627,7 +1627,7 @@
     <text x="364.0" y="275"><tspan class="label">Stars: </tspan><tspan fill="#c9d1d9" class="val">27</tspan></text>
     <text x="364.0" y="294"><tspan class="label">Followers: </tspan><tspan fill="#c9d1d9" class="val">17</tspan></text>
     <text x="364.0" y="313"><tspan class="label">Contributions: </tspan><tspan fill="#c9d1d9" class="val">466</tspan></text>
-    <text x="364.0" y="332"><tspan class="label">Lines of code: </tspan><tspan fill="#c9d1d9" class="val">1.6M</tspan><tspan fill="#8b949e" class="val"> (</tspan><tspan fill="#3fb950" class="val">1.5M++</tspan><tspan fill="#8b949e" class="val">, </tspan><tspan fill="#f85149" class="val">43.9K--</tspan><tspan fill="#8b949e" class="val">)</tspan></text>
+    <text x="364.0" y="332"><tspan class="label">Lines of code: </tspan><tspan fill="#c9d1d9" class="val">0</tspan><tspan fill="#8b949e" class="val"> (</tspan><tspan fill="#3fb950" class="val">0++</tspan><tspan fill="#8b949e" class="val">, </tspan><tspan fill="#f85149" class="val">0--</tspan><tspan fill="#8b949e" class="val">)</tspan></text>
     <text x="364.0" y="370"><tspan class="label">Shell: </tspan><tspan fill="#c9d1d9" class="val">zsh</tspan></text>
     <text x="364.0" y="389"><tspan class="label">Aircraft: </tspan><tspan fill="#c9d1d9" class="val">B2, F117, F14, F22, MIG29, SU47, SU57, TEJAS</tspan></text>
   </g>
