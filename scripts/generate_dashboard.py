@@ -26,6 +26,21 @@ SEP_X = RIGHT_START_X - 12
 
 GLITCH_CHARS = list("░!@#$%&*?/|")
 
+def write_readme(config):
+    """Rewrite README.md with a cache-busted <picture> tag so GitHub/browsers
+    don't serve a stale cached SVG after each regeneration."""
+    repo = os.environ.get("GITHUB_REPOSITORY", f"{config['username']}/{config['username']}")
+    sha = os.environ.get("GITHUB_SHA", datetime.now().strftime("%Y%m%d%H%M%S"))[:12]
+    base = f"https://raw.githubusercontent.com/{repo}/main"
+
+    content = f"""<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="{base}/profile-dark.svg?v={sha}">
+  <source media="(prefers-color-scheme: light)" srcset="{base}/profile-light.svg?v={sha}">
+  <img alt="Terminal Dashboard" src="{base}/profile-dark.svg?v={sha}">
+</picture>
+"""
+    (ROOT_DIR / "README.md").write_text(content)
+    print(f"[✓] README.md updated (cache-bust v={sha})")
 
 def load_config():
     with open(ROOT_DIR / "profile.yml") as f:
@@ -583,6 +598,8 @@ def main():
         out.write_text(svg)
         print(f"[✓] {out.name} ({len(svg):,} bytes)")
 
+    write_readme(config)
+    
     print("[✓] Done!")
 
 
