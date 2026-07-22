@@ -1,5 +1,4 @@
 name: Update Profile Dashboard
-
 on:
   push:
     branches: [main]
@@ -11,6 +10,10 @@ on:
     - cron: '0 */6 * * *'  # Every 6 hours
   workflow_dispatch:
 
+concurrency:
+  group: profile-dashboard
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -21,20 +24,54 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         run: pip install requests pyyaml
-
       - name: Backup previous SVGs
         run: |
           [ -f profile-dark.svg ] && cp profile-dark.svg profile-dark.svg.bak || true
           [ -f profile-light.svg ] && cp profile-light.svg profile-light.svg.bak || true
-
+      - name: Generate Dashboard
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_dashboard.py
+      - name: Validate generated SVGs
+        run: |
+          fail=0
+          for f in profile-dark.svg profile-light.svg; do
+            if [ -f "$f" ] && grep -q '<svg' "$f" && grep -q '</svg>' "$f"; then
+              echo "✓ $f is valid"
+            else
+              echo "✗ $f is invalid or missing"
+              if [ -f "${f}.bak" ]; then
+                echo "  restoring backup"
+                cp "${f}.bak" "$f"
+              else
+                echo "  no backup available — failing the job to avoid committing a broken/missing file"
+                fail=1
+              fi
+            fi
+          done
+          if [ "$fail" -eq 1 ]; then
+            exit 1
+          fi
+      - name: Cleanup backups
+        run: rm -f profile-dark.svg.bak profile-light.svg.bak
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-dark.svg profile-light.svg .loc-cache.json .stats-cache.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update profile dashboard [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
       - name: Generate Dashboard
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
