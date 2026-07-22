@@ -17,7 +17,7 @@ ide: "VsCode, VsCodium, IntelliJ Idea"
 shell: "zsh"
 
 # Aircraft directory (drop .txt ASCII art files here)
-aircraft_dir: "aircraft"
+aircraft_dir: "logos"
 
 # Animation timing (seconds per aircraft in the SVG animation)
 aircraft_display_seconds: 2.0
