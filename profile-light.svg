@@ -1623,11 +1623,11 @@
     <text x="364.0" y="180"><tspan class="label">Frameworks: </tspan><tspan fill="#24292f" class="val">SpringBoot, Flask, Linux</tspan></text>
     <text x="364.0" y="199"><tspan class="label">IDE: </tspan><tspan fill="#24292f" class="val">VsCode, VsCodium, IntelliJ Idea</tspan></text>
     <text x="364.0" y="237"><tspan class="label">Packages: </tspan><tspan fill="#24292f" class="val">10 open repositories</tspan></text>
-    <text x="364.0" y="256"><tspan class="label">Commits: </tspan><tspan fill="#24292f" class="val">576</tspan></text>
+    <text x="364.0" y="256"><tspan class="label">Commits: </tspan><tspan fill="#24292f" class="val">577</tspan></text>
     <text x="364.0" y="275"><tspan class="label">Stars: </tspan><tspan fill="#24292f" class="val">4</tspan></text>
     <text x="364.0" y="294"><tspan class="label">Followers: </tspan><tspan fill="#24292f" class="val">14</tspan></text>
-    <text x="364.0" y="313"><tspan class="label">Contributions: </tspan><tspan fill="#24292f" class="val">591</tspan></text>
-    <text x="364.0" y="332"><tspan class="label">Lines of code: </tspan><tspan fill="#24292f" class="val">0</tspan><tspan fill="#57606a" class="val"> (</tspan><tspan fill="#1a7f37" class="val">0++</tspan><tspan fill="#57606a" class="val">, </tspan><tspan fill="#cf222e" class="val">0--</tspan><tspan fill="#57606a" class="val">)</tspan></text>
+    <text x="364.0" y="313"><tspan class="label">Contributions: </tspan><tspan fill="#24292f" class="val">592</tspan></text>
+    <text x="364.0" y="332"><tspan class="label">Lines of code: </tspan><tspan fill="#24292f" class="val">8.8K</tspan><tspan fill="#57606a" class="val"> (</tspan><tspan fill="#1a7f37" class="val">7.5K++</tspan><tspan fill="#57606a" class="val">, </tspan><tspan fill="#cf222e" class="val">1.2K--</tspan><tspan fill="#57606a" class="val">)</tspan></text>
     <text x="364.0" y="370"><tspan class="label">Shell: </tspan><tspan fill="#24292f" class="val">zsh</tspan></text>
     <text x="364.0" y="389"><tspan class="label">Aircraft: </tspan><tspan fill="#24292f" class="val">B2, F117, F14, F22, MIG29, SU47, SU57, TEJAS</tspan></text>
   </g>
