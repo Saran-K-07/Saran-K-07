@@ -430,7 +430,7 @@
     <text x="364.0" y="47" class="dim">─────────────────────────</text>
     <text x="364.0" y="85"><tspan class="label">OS: </tspan><tspan fill="#c9d1d9" class="val">Saran Kanakavel</tspan></text>
     <text x="364.0" y="104"><tspan class="label">Host: </tspan><tspan fill="#c9d1d9" class="val">Earth</tspan></text>
-    <text x="364.0" y="123"><tspan class="label">Uptime: </tspan><tspan fill="#c9d1d9" class="val">20 years 0 months 0 days</tspan></text>
+    <text x="364.0" y="123"><tspan class="label">Uptime: </tspan><tspan fill="#c9d1d9" class="val">20 years 0 months 1 days</tspan></text>
     <text x="364.0" y="161"><tspan class="label">Languages: </tspan><tspan fill="#c9d1d9" class="val">C/C++, Python, Java</tspan></text>
     <text x="364.0" y="180"><tspan class="label">Frameworks: </tspan><tspan fill="#c9d1d9" class="val">SpringBoot, Flask, Linux</tspan></text>
     <text x="364.0" y="199"><tspan class="label">IDE: </tspan><tspan fill="#c9d1d9" class="val">VsCode, VsCodium, IntelliJ Idea</tspan></text>
