@@ -485,7 +485,7 @@ def generate_svg(config, stats, loc_stats, aircraft_list, theme="dark"):
     li += 1
 
     spacer()
-    field("OS", config["os"])
+    field("Name", config["os"])
     field("Host", config["host"])
     field("Uptime", uptime)
     spacer()
