@@ -428,14 +428,14 @@
   <g id="info-panel">
     <text x="364.0" y="28" class="title">contact@sarankanakavel.me</text>
     <text x="364.0" y="47" class="dim">─────────────────────────</text>
-    <text x="364.0" y="85"><tspan class="label">OS: </tspan><tspan fill="#24292f" class="val">Saran Kanakavel</tspan></text>
+    <text x="364.0" y="85"><tspan class="label">Name: </tspan><tspan fill="#24292f" class="val">Saran Kanakavel</tspan></text>
     <text x="364.0" y="104"><tspan class="label">Host: </tspan><tspan fill="#24292f" class="val">Earth</tspan></text>
     <text x="364.0" y="123"><tspan class="label">Uptime: </tspan><tspan fill="#24292f" class="val">20 years 0 months 4 days</tspan></text>
     <text x="364.0" y="161"><tspan class="label">Languages: </tspan><tspan fill="#24292f" class="val">C/C++, Python, Java</tspan></text>
     <text x="364.0" y="180"><tspan class="label">Frameworks: </tspan><tspan fill="#24292f" class="val">SpringBoot, Flask, Linux</tspan></text>
     <text x="364.0" y="199"><tspan class="label">IDE: </tspan><tspan fill="#24292f" class="val">VsCode, VsCodium, IntelliJ Idea</tspan></text>
-    <text x="364.0" y="237"><tspan class="label">Packages: </tspan><tspan fill="#24292f" class="val">10 open repositories</tspan></text>
-    <text x="364.0" y="256"><tspan class="label">Commits: </tspan><tspan fill="#24292f" class="val">587</tspan></text>
+    <text x="364.0" y="237"><tspan class="label">Packages: </tspan><tspan fill="#24292f" class="val">9 open repositories</tspan></text>
+    <text x="364.0" y="256"><tspan class="label">Commits: </tspan><tspan fill="#24292f" class="val">588</tspan></text>
     <text x="364.0" y="275"><tspan class="label">Stars: </tspan><tspan fill="#24292f" class="val">4</tspan></text>
     <text x="364.0" y="294"><tspan class="label">Followers: </tspan><tspan fill="#24292f" class="val">14</tspan></text>
     <text x="364.0" y="313"><tspan class="label">Contributions: </tspan><tspan fill="#24292f" class="val">603</tspan></text>
