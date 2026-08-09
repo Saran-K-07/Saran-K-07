@@ -439,7 +439,7 @@
     <text x="364.0" y="275"><tspan class="label">Stars: </tspan><tspan fill="#24292f" class="val">4</tspan></text>
     <text x="364.0" y="294"><tspan class="label">Followers: </tspan><tspan fill="#24292f" class="val">17</tspan></text>
     <text x="364.0" y="313"><tspan class="label">Contributions: </tspan><tspan fill="#24292f" class="val">581</tspan></text>
-    <text x="364.0" y="332"><tspan class="label">Lines of code: </tspan><tspan fill="#24292f" class="val">13.4K</tspan><tspan fill="#57606a" class="val"> (</tspan><tspan fill="#1a7f37" class="val">12.0K++</tspan><tspan fill="#57606a" class="val">, </tspan><tspan fill="#cf222e" class="val">1.4K--</tspan><tspan fill="#57606a" class="val">)</tspan></text>
+    <text x="364.0" y="332"><tspan class="label">Lines of code: </tspan><tspan fill="#24292f" class="val">32.2K</tspan><tspan fill="#57606a" class="val"> (</tspan><tspan fill="#1a7f37" class="val">25.6K++</tspan><tspan fill="#57606a" class="val">, </tspan><tspan fill="#cf222e" class="val">6.6K--</tspan><tspan fill="#57606a" class="val">)</tspan></text>
     <text x="364.0" y="370"><tspan class="label">Shell: </tspan><tspan fill="#24292f" class="val">zsh</tspan></text>
     <text x="364.0" y="389"><tspan class="label">OS: </tspan><tspan fill="#24292f" class="val">APPLE, KALI</tspan></text>
   </g>
