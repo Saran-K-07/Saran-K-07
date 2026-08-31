@@ -437,7 +437,7 @@
     <text x="364.0" y="237"><tspan class="label">Packages: </tspan><tspan fill="#24292f" class="val">11 open repositories</tspan></text>
     <text x="364.0" y="256"><tspan class="label">Commits: </tspan><tspan fill="#24292f" class="val">700</tspan></text>
     <text x="364.0" y="275"><tspan class="label">Stars: </tspan><tspan fill="#24292f" class="val">5</tspan></text>
-    <text x="364.0" y="294"><tspan class="label">Followers: </tspan><tspan fill="#24292f" class="val">18</tspan></text>
+    <text x="364.0" y="294"><tspan class="label">Followers: </tspan><tspan fill="#24292f" class="val">19</tspan></text>
     <text x="364.0" y="313"><tspan class="label">Contributions: </tspan><tspan fill="#24292f" class="val">748</tspan></text>
     <text x="364.0" y="332"><tspan class="label">Lines of code: </tspan><tspan fill="#24292f" class="val">32.5K</tspan><tspan fill="#57606a" class="val"> (</tspan><tspan fill="#1a7f37" class="val">25.9K++</tspan><tspan fill="#57606a" class="val">, </tspan><tspan fill="#cf222e" class="val">6.6K--</tspan><tspan fill="#57606a" class="val">)</tspan></text>
     <text x="364.0" y="370"><tspan class="label">Shell: </tspan><tspan fill="#24292f" class="val">zsh</tspan></text>
