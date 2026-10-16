@@ -1,5 +1,5 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Saran-K-07/Saran-K-07/main/profile-dark.svg?v=aeb9607369f0">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Saran-K-07/Saran-K-07/main/profile-light.svg?v=aeb9607369f0">
-  <img alt="Terminal Dashboard" src="https://raw.githubusercontent.com/Saran-K-07/Saran-K-07/main/profile-dark.svg?v=aeb9607369f0">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Saran-K-07/Saran-K-07/main/profile-dark.svg?v=3b91eb9136f0">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Saran-K-07/Saran-K-07/main/profile-light.svg?v=3b91eb9136f0">
+  <img alt="Terminal Dashboard" src="https://raw.githubusercontent.com/Saran-K-07/Saran-K-07/main/profile-dark.svg?v=3b91eb9136f0">
 </picture>
